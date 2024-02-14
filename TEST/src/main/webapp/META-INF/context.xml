@@ -1,0 +1,17 @@
+<Context path = "/TEST" docBase = "www">
+<Resource
+	name = "jdbc/bbs"
+	auth = "Container"
+	type = "javax.sql.DataSource"
+	driverClassName = "com.mysql.jdbc.Driver"
+	loginTieout = "10"
+	validationQuery = "SELECT 1 FROM DUAL"
+	maxWait = "5000"
+	username = "root"
+	password = "LoveLive09!"
+	testOnBorrow="true"
+	url = "jdbc:mysql://localhost:3306/bbs"/>
+<ResourceLink type = "javax.sql.data.DataSource"
+	name = "jdbc/bbs"
+	global = "jdbc/bbs"/>
+</Context>
