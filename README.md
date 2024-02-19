@@ -1,5 +1,10 @@
-# Online Board 
+# JSP Online Board 
+소프트웨어 공학 수업에서 과제로 JSP로 게시판을 만들었다
+## 프로젝트 소개 
+* 환경 : JSP, MySQL, Bootstrap, Apache Tomcat
+* 기간 : 2022.03 ~ 2022.06
 
+## 각 화면
 ### 메인 화면
 
 ![웹사이트 메인](https://github.com/Fire-Lights-1s/online_board/assets/108480062/4517f1e9-6456-47d1-916a-c095a2ebdbdf)
